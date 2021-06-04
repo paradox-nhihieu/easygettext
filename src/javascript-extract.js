@@ -40,6 +40,9 @@ function getGettextEntriesFromJavaScript(argTokens = []) {
           // 'msgid' is at index i+4
           const currentTokenIndex = i + 2 * (argIndex + 1);
           const currentToken = allTokens[currentTokenIndex];
+          if (currentToken.type.label === 'name') {
+            return obj
+          }
           if (currentToken.type.label === '`') {
             const nextToken = allTokens[currentTokenIndex + 1];
             const closingToken = allTokens[currentTokenIndex + 2];

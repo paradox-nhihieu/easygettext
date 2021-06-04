@@ -292,6 +292,9 @@ exports.Extractor = class Extractor {
   processStrings(extractedData) {
     for (const d of extractedData) {
       const msgid = d.text || d.msgid;
+      if (!msgid) {
+        continue
+      }
       if (!this.items[msgid]) {
         this.items[msgid] = {};
       }
@@ -351,7 +354,7 @@ exports.Extractor = class Extractor {
       }
     }
 
-    catalog.items.sort((a, b) => a.msgid.localeCompare(b.msgid));
+    catalog.items.sort((a, b) => (a.msgid || '').localeCompare(b.msgid));
     return catalog.toString();
   }
 
