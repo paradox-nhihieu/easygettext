@@ -15,7 +15,10 @@ exports.DEFAULT_VUE_GETTEXT_FUNCTIONS = {
   '_': ['msgid'],
   '$t': ['msgid'],
   '$gettext': ['msgid'],
+  '$gettextLazy': ['msgid'],
+  '$gettextNoop': ['msgid'],
   '$ngettext': ['msgid', 'plural', null],
+  '$ngettextLazy': ['msgid', 'plural', null],
   '$pgettext': ['msgctxt', 'msgid'],
   '$npgettext': ['msgctxt', 'msgid', 'plural', null],
 };

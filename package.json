@@ -1,6 +1,6 @@
 {
   "name": "@hieunhit/easygettext",
-  "version": "2.17.0",
+  "version": "2.17.2",
   "description": "Simple tools to extract gettext strings",
   "main": "src/extract-cli.js",
   "repository": {
