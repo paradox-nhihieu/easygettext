@@ -1,11 +1,11 @@
 {
-  "name": "@hieunhit/easygettext",
+  "name": "@paradox-nhihieu/easygettext",
   "version": "2.17.2",
   "description": "Simple tools to extract gettext strings",
   "main": "src/extract-cli.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hieunhit/easygettext.git"
+    "url": "git+https://github.com/paradox-nhihieu/easygettext.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
@@ -57,7 +57,7 @@
     "collectCoverage": true
   },
   "bugs": {
-    "url": "https://github.com/hieunhit/easygettext/issues"
+    "url": "https://github.com/paradox-nhihieu/easygettext/issues"
   },
-  "homepage": "https://github.com/hieunhit/easygettext#readme"
+  "homepage": "https://github.com/paradox-nhihieu/easygettext#readme"
 }
