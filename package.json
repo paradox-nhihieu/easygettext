@@ -28,8 +28,8 @@
     "node": ">=8"
   },
   "bin": {
-    "gettext-compile": "src/compile-cli.js",
-    "gettext-extract": "src/extract-cli.js"
+    "gettext-compile": "./src/compile-cli.js",
+    "gettext-extract": "./src/extract-cli.js"
   },
   "dependencies": {
     "@babel/core": "^7.11.6",
